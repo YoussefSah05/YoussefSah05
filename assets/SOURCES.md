@@ -14,10 +14,11 @@ They identify education, rather than sponsorship or endorsement.
 - ENS Paris-Saclay: [official website asset](https://ens-paris-saclay.fr/sites/default/files/ENSPS_UPSAY_logo_couleur_2.png).
 - École des Ponts: [official graphic-guidelines asset](https://ecoledesponts.fr/sites/default/files/pages/Ecole/Logo-ENPC-IP-RVB.png).
 
-Project screenshots are copied from the portfolio’s display assets. Nova uses a
-sample profile with simulated backend/model state; Supply Chain uses synthetic
-preview data; Billiards Saloon is a native desktop capture. Their captions appear
-in the profile README.
+Project screenshots are copied from the portfolio’s display assets (refreshed 12 October 2026).
+Septhuit uses the native main-menu capture taken after the rename from Billiards Saloon; Nova is a
+native capture of hybrid dialogue search on original sample media; Supply Chain shows the forecast
+explorer with synthetic inputs. Their captions appear in the profile README.
 
-The banner is a custom SVG illustration. All display assets are local and do not
-require the portfolio reference directory or a logo CDN.
+The hero banners and link buttons are custom SVG illustrations, generated together so the light and
+dark variants stay in sync. All display assets are local and do not require the portfolio reference
+directory, a logo CDN or a stats service.
