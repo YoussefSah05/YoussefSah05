@@ -56,7 +56,7 @@ A realism-first 3D pool game built from scratch in C++20 and OpenGL, without a g
 <tr>
 <td width="50%" valign="top">
 
-### [Nova](https://youssefsah05.vercel.app/projects/nova/)
+### [Nova](https://github.com/YoussefSah05/nova)
 
 **Turn spoken media into searchable moments.**
 
@@ -68,6 +68,7 @@ A native macOS media player with on-device Whisper captions. Its hybrid dialogue
 
 <img src="./assets/technology/rust.png" alt="Rust" width="28" height="28"> <img src="./assets/technology/tauri.png" alt="Tauri" width="28" height="28"> <img src="./assets/technology/react.png" alt="React" width="28" height="28"> <img src="./assets/technology/sqlite.png" alt="SQLite" width="28" height="28">
 
+<a href="https://github.com/YoussefSah05/nova"><img src="./assets/buttons/repository.svg" alt="Nova repository" height="36"></a>
 <a href="https://youssefsah05.vercel.app/projects/nova/"><img src="./assets/buttons/case-study.svg" alt="Nova case study" height="36"></a>
 
 </td>
