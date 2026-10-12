@@ -64,7 +64,9 @@ A realism-first 3D pool game built from scratch in C++20 and OpenGL, without a g
   <img src="./assets/projects/nova-search.webp" alt="Nova player with a searchable Whisper transcript beside the video" width="100%">
 </a>
 
-A native macOS media player with on-device Whisper captions. Its hybrid dialogue search combines E5 embeddings and SQLite FTS5 using reciprocal rank fusion. A Rust core keeps credentials out of the React webview.
+A native macOS media player with on-device Whisper captions and Opus-MT translation (English, French, Arabic). Its hybrid dialogue search combines E5 embeddings and SQLite FTS5 using reciprocal rank fusion. A Rust core keeps credentials out of the React webview.
+
+Profiling on a real 8,658-channel library cut the Live guide page from **72.8 s to 1.9 ms**. Reusing embeddings brought an unchanged catalog refresh from **~3 min to under 1 s**. Both were measured on one Mac.
 
 <img src="./assets/technology/rust.png" alt="Rust" width="28" height="28"> <img src="./assets/technology/tauri.png" alt="Tauri" width="28" height="28"> <img src="./assets/technology/react.png" alt="React" width="28" height="28"> <img src="./assets/technology/sqlite.png" alt="SQLite" width="28" height="28">
 
