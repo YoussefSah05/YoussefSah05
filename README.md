@@ -29,7 +29,7 @@ I study applied mathematics and machine learning, and build software to explore 
 
 ## Featured projects
 
-### [Septhuit](https://github.com/YoussefSah05/septhuit) · 3D pool, exact physics, trained opponents
+### <img src="./assets/projects/septhuit-logo.svg" alt="" width="30" height="30"> [Septhuit](https://github.com/YoussefSah05/septhuit) · 3D pool, exact physics, trained opponents
 
 <a href="https://github.com/YoussefSah05/septhuit">
   <img src="./assets/projects/septhuit-menu.webp" alt="Septhuit main menu with the sept and huit wordmark over the tournament hall and pool table" width="100%">
@@ -56,7 +56,7 @@ A realism-first 3D pool game built from scratch in C++20 and OpenGL, without a g
 <tr>
 <td width="50%" valign="top">
 
-### [Nova](https://github.com/YoussefSah05/nova)
+### <img src="./assets/projects/nova-logo.svg" alt="" width="30" height="30"> [Nova](https://github.com/YoussefSah05/nova)
 
 **Turn spoken media into searchable moments.**
 
@@ -64,9 +64,11 @@ A realism-first 3D pool game built from scratch in C++20 and OpenGL, without a g
   <img src="./assets/projects/nova-search.webp" alt="Nova player with a searchable Whisper transcript beside the video" width="100%">
 </a>
 
-A native macOS media player with on-device Whisper captions and Opus-MT translation (English, French, Arabic). Its hybrid dialogue search combines E5 embeddings and SQLite FTS5 using reciprocal rank fusion. A Rust core keeps credentials out of the React webview.
+A native macOS media player with on-device Whisper captions and Opus-MT translation (English, French, Arabic). Speech detection and CTC forced alignment place every caption word: mean word-start error fell from **398 ms to 50 ms** on 779 LibriSpeech reference words, and a resident speech worker brought the first caption after a cold start from **32.1 s to 2.1 s**.
 
-Profiling on a real 8,658-channel library cut the Live guide page from **72.8 s to 1.9 ms**. Reusing embeddings brought an unchanged catalog refresh from **~3 min to under 1 s**. Both were measured on one Mac.
+Its hybrid dialogue search combines E5 embeddings and SQLite FTS5 using reciprocal rank fusion. A Rust core keeps credentials out of the React webview.
+
+Profiling on a real 8,658-channel library cut the Live guide page from **72.8 s to 1.9 ms**, and reusing embeddings brought an unchanged catalog refresh from **~3 min to under 1 s**. All timings were measured on one Mac.
 
 <img src="./assets/technology/rust.png" alt="Rust" width="28" height="28"> <img src="./assets/technology/tauri.png" alt="Tauri" width="28" height="28"> <img src="./assets/technology/react.png" alt="React" width="28" height="28"> <img src="./assets/technology/sqlite.png" alt="SQLite" width="28" height="28">
 
@@ -121,7 +123,7 @@ A team-built forecasting and inventory app that grew from a Streamlit prototype 
 </p>
 
 **Languages & tools:** Python · C++ · Rust · Linux · Git<br>
-**ML & data:** PyTorch · NumPy · Pandas · scikit-learn · Hugging Face<br>
+**ML & data:** PyTorch · NumPy · Pandas · scikit-learn · Hugging Face · llama.cpp<br>
 **Mathematics:** Statistics · Convex optimization · Stochastic processes · Machine learning
 
 ---

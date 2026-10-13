@@ -19,6 +19,9 @@ Septhuit uses the native main-menu capture taken after the rename from Billiards
 native capture of hybrid dialogue search on original sample media; Supply Chain shows the forecast
 explorer with synthetic inputs. Their captions appear in the profile README.
 
+The Nova and Septhuit app icons beside their titles are copied from the portfolio's project folders
+(13 October 2026): Nova's small-size icon from its brand guide, and Septhuit's app icon unchanged.
+
 The hero banners and link buttons are custom SVG illustrations, generated together so the light and
 dark variants stay in sync. All display assets are local and do not require the portfolio reference
 directory, a logo CDN or a stats service.
